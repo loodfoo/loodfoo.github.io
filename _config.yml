@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Luuman's Blog
+title: loodfoo's Blog
 subtitle: 因为有了危机感，所以会义无反顾。
-description: luuman，90后，水瓶座普通男青年！爱折腾，爱运动，更爱游离于错综复杂的编码与逻辑中，无法自拔。相信编程是一门艺术，自诩为游弋在代码里的人生。
-author: 世平阜康
+description: loodfoo，80后，金牛座普通男青年！爱折腾，爱运动，更爱游离于错综复杂的编码与逻辑中，无法自拔。相信编程是一门艺术，自诩为游弋在代码里的人生。
+author: loodfoo-老地方
 language: zh-Hans
 timezone:
 
 # URL #这项暂不配置，绑定域名后，欲创建sitemap.xml需要配置该项
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://luuman.github.io/Blog/
-root: /Blog/
+url: http://loodfoo.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -80,12 +80,12 @@ path: baidusitemap.xml
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
 #deploy:
 #  type: git
-#  repository: git@github.com:luuman/luuman.github.io.git
+#  repository: git@github.com:loodfoo/loodfoo.github.io.git
 #  branch: master
 
 # Deployment 站点部署到github要配置，上一节中已经讲过
-## Docs: http://zespia.tw/hexo/docs/deploy.htmlrepository: git@github.com:luuman/Blog.git
+## Docs: http://zespia.tw/hexo/docs/deploy.htmlrepository: git@github.com:loodfoo.git
 deploy:
   type: git
-  repository: https://github.com/luuman/Blog.git
+  repository: https://github.com/loodfoo/
   branch: gh-pages
